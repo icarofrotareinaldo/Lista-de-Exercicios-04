@@ -1,0 +1,42 @@
+Lista de Exercícios 04 - Operadores Matemáticos
+
+Atividade 01 e 02: Programa Quadrado
+
+let num1 = prompt("Digite um Número Qualquer:");
+num1 = Number(num1);
+let num2 = prompt("Digite mais um Número Qualquer:");
+num2 = Number(num2);
+let num3 = prompt("Digite um Último Número:");
+num3 = Number(num3);
+let resultado = num1 + num2 + num3;
+quad = resultado ** 2;
+document.write("O Resultado dos seus Números é de: " + quad);
+
+Atividade 03: Programa Raiz
+
+let num1 = prompt("Digite um Número:");
+let resultado = num1**0.5;
+document.write("A Raíz de " + num1 + " é:" + resultado);
+
+Atividade 04: Programa Módulo
+
+let num1 = prompt("Digite algum Número:");
+num1 = Number(num1);
+let resultado = num1;
+if(num1>0){
+    document.write(num1);
+}
+else{
+    document.write(num1*(-1));
+}
+
+Atividade 05: Programa Volume
+
+let altura = prompt("Digite a Altura:");
+altura = Number(altura)
+let raio = prompt("Digite o Valor do Raio:");
+raio = Number(raio)
+
+//V = π.r².h
+let volume = 3.14 *raio**2*altura;
+document.write(volume);
